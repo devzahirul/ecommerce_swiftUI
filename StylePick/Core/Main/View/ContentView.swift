@@ -7,15 +7,14 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    
+   
+    //MARK: - UI
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+          MainView()
+          
     }
 }
 
@@ -24,3 +23,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
